@@ -1,0 +1,14 @@
+<script>
+    //break, continue
+    const returnFunc = () => {
+        let count = 0;
+        while(count < 100) {
+            console.log(`${count} return테스트`);
+            count += 1;
+            if(count > 10) return;
+        }
+        console.log(`return에서 빠져나옴`);
+    };
+    returnFunc();
+
+</script>
